@@ -1,0 +1,15 @@
+images/psu filter=lfs diff=lfs merge=lfs -text
+images/brand filter=lfs diff=lfs merge=lfs -text
+images/case filter=lfs diff=lfs merge=lfs -text
+images/cooler filter=lfs diff=lfs merge=lfs -text
+images/gpu filter=lfs diff=lfs merge=lfs -text
+images/promo filter=lfs diff=lfs merge=lfs -text
+images/ram filter=lfs diff=lfs merge=lfs -text
+images/stuffs filter=lfs diff=lfs merge=lfs -text
+images/about-us filter=lfs diff=lfs merge=lfs -text
+images/banner.jpg filter=lfs diff=lfs merge=lfs -text
+images/carousel filter=lfs diff=lfs merge=lfs -text
+images/main filter=lfs diff=lfs merge=lfs -text
+images/banner-100.jpg filter=lfs diff=lfs merge=lfs -text
+images/cpu filter=lfs diff=lfs merge=lfs -text
+images/storage filter=lfs diff=lfs merge=lfs -text
