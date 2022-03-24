@@ -5,7 +5,7 @@ $('#footer').load('../assets/share/footer.html');
 $('#checkout').click(function (e) {
     e.preventDefault();
 
-    window.location.href = '../checkout.html';
+    window.location.href = '../checkout';
 });
 $('#backShop').click(function (e) {
     e.preventDefault();
