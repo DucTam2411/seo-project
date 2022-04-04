@@ -30,6 +30,7 @@
             integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
             crossorigin="anonymous"
         ></script> -->
+        <link rel="canonical" href="https://www.linhkien.shop/checkout" />
     </head>
 
     <body>
@@ -42,16 +43,16 @@
                     <nav class="float-right" aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item">
-                                <a href="../">Home</a>
+                                <a href="../">Trang chủ</a>
                             </li>
                             <li class="breadcrumb-item">
-                                <a href="../cart">Cart</a>
+                                <a href="../gio-hang">Cart</a>
                             </li>
                             <li
                                 class="breadcrumb-item active"
                                 aria-current="page"
                             >
-                                Checkout
+                                Thanh toán
                             </li>
                         </ol>
                     </nav>
@@ -65,7 +66,7 @@
                         <h4
                             class="d-flex justify-content-between align-items-center mb-3"
                         >
-                            <span class="text-muted">Your cart</span>
+                            <span class="text-muted">Giỏ của bạn</span>
                             <span class="badge badge-secondary badge-pill"
                                 >1</span
                             >
@@ -94,11 +95,11 @@
                     <div
                         class="offset-lg-0 offset-md-0 offset-sm-1 offset-0 col-sm-11 col-md-7 col-lg-8 order-md-1"
                     >
-                        <h4 class="mb-3">Checkout</h4>
+                        <h4 class="mb-3">Thanh toán</h4>
                         <form class="needs-validation" novalidate>
                             <div class="row">
                                 <div class="col-md-12 mb-3">
-                                    <label for="firstName">Name*</label>
+                                    <label for="firstName">Tên*</label>
                                     <input
                                         type="text"
                                         class="form-control"
@@ -108,13 +109,13 @@
                                         required=""
                                     />
                                     <div class="invalid-feedback">
-                                        Name must be filled
+                                        Tên không được bỏ trống
                                     </div>
                                 </div>
                             </div>
 
                             <div class="mb-3">
-                                <label for="sdt">Phone number*</label>
+                                <label for="sdt">SĐT*</label>
                                 <div class="input-group">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text"
@@ -132,7 +133,7 @@
                                         class="invalid-feedback"
                                         style="width: 100%"
                                     >
-                                        Phone number must be filled
+                                        Số điện thoại không được bỏ trống
                                     </div>
                                 </div>
                             </div>
@@ -145,12 +146,12 @@
                                     id="email"
                                 />
                                 <div class="invalid-feedback">
-                                    Email invalid
+                                    Email không hợp lệ
                                 </div>
                             </div>
 
                             <div class="mb-3">
-                                <label for="address">Address*</label>
+                                <label for="address">Địa chỉ*</label>
                                 <input
                                     type="text"
                                     class="form-control"
@@ -158,19 +159,19 @@
                                     required=""
                                 />
                                 <div class="invalid-feedback">
-                                    Address must be filled
+                                    Địa chỉ không được bỏ trống
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="col-md-6 mb-3">
-                                    <label for="country">City*</label>
+                                    <label for="country">Tỉnh*</label>
                                     <select
                                         class="form-select d-block w-100"
                                         id="country"
                                         required=""
                                     >
-                                        <option value="">Choose...</option>
+                                        <option value="">Chọn...</option>
                                         <option value="An Giang">
                                             An Giang
                                         </option>
@@ -337,11 +338,11 @@
                                     </select>
 
                                     <div class="invalid-feedback">
-                                        City must be selected
+                                        Tỉnh phải được chọn
                                     </div>
                                 </div>
                                 <div class="col-md-6 mb-3">
-                                    <label for="huyen">District*</label>
+                                    <label for="huyen">Huyện*</label>
                                     <select
                                         class="form-select d-block w-100"
                                         id="huyen"
@@ -374,15 +375,15 @@
                                         <option>TP. Thủ Đức</option>
                                     </select>
                                     <div class="invalid-feedback">
-                                        District must be selected
+                                        Huyện phải được chọn
                                     </div>
                                 </div>
                             </div>
                             <hr class="mb-4" />
-                            <div style="color: red">* Require</div>
+                            <div style="color: red">* Bắt buộc</div>
                             <hr class="mb-4" />
 
-                            <h4 class="mb-3">Method payment</h4>
+                            <h4 class="mb-3">Phương thức thanh toán</h4>
 
                             <div class="d-block my-3">
                                 <div class="custom-control custom-radio">
@@ -397,7 +398,7 @@
                                     <label
                                         class="custom-control-label"
                                         for="credit"
-                                        >Credit card</label
+                                        >Thẻ tín dụng</label
                                     >
                                 </div>
                                 <div class="custom-control custom-radio">
@@ -418,7 +419,7 @@
 
                             <div class="row">
                                 <div class="col-md-6 mb-3">
-                                    <label for="card-name">Name*</label>
+                                    <label for="card-name">Tên*</label>
                                     <input
                                         type="text"
                                         class="form-control"
@@ -426,16 +427,14 @@
                                         required=""
                                     />
                                     <small class="text-muted"
-                                        >Name on the card</small
+                                        >Tên trên thẻ</small
                                     >
                                     <div class="invalid-feedback">
-                                        Card name must be filled
+                                        Tên thẻ không được bỏ trống
                                     </div>
                                 </div>
                                 <div class="col-md-6 mb-3">
-                                    <label for="card-number"
-                                        >Card number*</label
-                                    >
+                                    <label for="card-number">Số thẻ*</label>
                                     <input
                                         type="text"
                                         class="form-control"
@@ -444,7 +443,7 @@
                                         pattern="[0-9]+"
                                     />
                                     <div class="invalid-feedback">
-                                        Invalid card number
+                                        Số thẻ không hợp lệ
                                     </div>
                                 </div>
                             </div>
@@ -459,7 +458,7 @@
                                         required=""
                                     />
                                     <div class="invalid-feedback">
-                                        Expiration date must be filled
+                                        Ngày hết hạn thẻ không được bỏ trống
                                     </div>
                                 </div>
                                 <div class="col-md-3 mb-3">
@@ -474,7 +473,7 @@
                                     />
 
                                     <div class="invalid-feedback">
-                                        Invalid CVV
+                                        Mã CVV không hợp lệ
                                     </div>
                                 </div>
                                 <hr class="mb-4" />
@@ -482,7 +481,7 @@
                                     class="btn btn-outline-success btn-lg btn-block"
                                     type="submit"
                                 >
-                                    Checkout
+                                    Thanh toán
                                 </button>
                             </div>
                         </form>
@@ -526,11 +525,11 @@
             })(document, 'script', 'facebook-jssdk');
         </script>
 
-        <script src="../js/checkout.js"></script>
-        <script
+        <script src="/js/checkout.js"></script>
+        <!-- <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
             crossorigin="anonymous"
-        ></script>
+        ></script> -->
     </body>
 </html>
