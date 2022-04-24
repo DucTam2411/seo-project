@@ -6,7 +6,6 @@
  */
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: 'Poppins';
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -48,7 +47,7 @@ hr {
 }
 
 pre {
-  font-family: monospace, monospace;
+  
   font-size: 1em;
 }
 
@@ -81,7 +80,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
+  
   font-size: 1em;
 }
 
@@ -337,7 +336,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins';
+ 
   font-size: 14px;
   font-weight: normal;
   line-height: 1.5;
@@ -698,12 +697,7 @@ mark,
   color: #636c72;
 }
 
-code,
-kbd,
-pre,
-samp {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
+
 
 code {
   padding: 0.2rem 0.4rem;

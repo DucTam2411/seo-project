@@ -1,6 +1,6 @@
 /* Scss Document */
 
-$yellow:#f5bc04;
+$yellow:#000000;
 
 @mixin border-radius($radius) {
 	-webkit-border-radius: $radius;
@@ -35,9 +35,7 @@ $yellow:#f5bc04;
 	transition:         all $transition ease;
 }
 
-a, a:hover {
-	color: $yellow;
-}
+
 .fh5co_header_bg {
 	background: #222;
 	color: #fff;
@@ -134,7 +132,7 @@ a, a:hover {
 	@include clip-path(polygon(100% 0, 100% 85%, 14% 85%, 0 100%, 0% 60%, 0 0));
 
 	&:focus, &:hover {
-		background: $yellow!important;
+		
 		color: #fff!important;
 		padding-top: 12px!important;
 		padding-bottom: 15px!important;
@@ -772,7 +770,7 @@ a, a:hover {
 	height: 350px!important;
 	width: 100%!important;
 	border: 0!important;
-	frameborder: 0!important;
+	
 }
 .contact_margin_svnit {
 	margin: 20px 0!important;
