@@ -1,4 +1,4 @@
 // load header when have id header
-$("#header").load("../asset/headernav.html");
+$("#header").load("/assets/share/headernav.html");
 // load header when have id footer
-$("#footer").load("../asset/footer.html");
+$("#footer").load("/assets/share/footer.html");
