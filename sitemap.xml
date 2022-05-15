@@ -8,39 +8,34 @@
 
 
 <url>
-  <loc>https://www.linhkien.shop</loc>
-  <lastmod>2022-03-19T07:48:13+00:00</lastmod>
+  <loc>https://www.linhkien.shop/</loc>
+  <lastmod>2022-05-15T14:20:17+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.linhkien.shop/index.html</loc>
-  <lastmod>2022-03-19T07:48:13+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.linhkien.shop/products.html</loc>
-  <lastmod>2022-03-19T07:48:13+00:00</lastmod>
+  <loc>https://www.linhkien.shop/san-pham</loc>
+  <lastmod>2022-05-15T14:20:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.linhkien.shop/warranty.html</loc>
-  <lastmod>2022-03-19T07:48:13+00:00</lastmod>
+  <loc>https://www.linhkien.shop/bao-hanh</loc>
+  <lastmod>2022-05-15T14:20:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.linhkien.shop/promotion.html</loc>
-  <lastmod>2022-03-19T07:48:13+00:00</lastmod>
+  <loc>https://www.linhkien.shop/khuyen-mai</loc>
+  <lastmod>2022-05-15T14:20:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.linhkien.shop/about-us.html</loc>
-  <lastmod>2022-03-19T07:48:13+00:00</lastmod>
+  <loc>https://www.linhkien.shop/gioi-thieu</loc>
+  <lastmod>2022-05-15T14:20:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.linhkien.shop/cart.html</loc>
-  <lastmod>2022-03-19T07:48:13+00:00</lastmod>
+  <loc>https://www.linhkien.shop/gio-hang</loc>
+  <lastmod>2022-05-15T14:20:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
+       
 </urlset>
